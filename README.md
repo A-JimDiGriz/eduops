@@ -5,8 +5,8 @@ EduOps is an interactive DevOps simulation environment designed to help users pr
 ## Features
 
 - **Infrastructure as Code (IaC) Setup:** Provision and manage infrastructure using tools like Terraform and Ansible.
-- **CI/CD Pipelines:** Automate build, test, and deployment processes using GitHub Actions.
-- **Application Deployment:** Deploy applications using Docker and Docker Compose.
+- **CI/CD Pipelines:** Automate build, test, and deployment processes using GitHub Actions, GitLab CI, Azure DevOps, and Argo CD.
+- **Application Deployment:** Deploy applications using Docker and Kubernetes.
 - **Monitoring and Alerting:** Set up monitoring and alerting systems using Prometheus and Grafana.
 - **Troubleshooting:** Practice troubleshooting common issues in a DevOps environment.
 - **Real-Time Feedback:** Receive immediate feedback on actions performed within the environment.
@@ -72,4 +72,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Flask](https://flask.palletsprojects.com/)
 - [Docker](https://www.docker.com/)
 - [GitHub Actions](https://github.com/features/actions)
-

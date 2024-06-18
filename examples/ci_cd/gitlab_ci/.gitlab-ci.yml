@@ -1,0 +1,17 @@
+stages:
+  - build
+  - test
+
+build-job:
+  stage: build
+  script:
+    - echo "Building the application..."
+    - python -m pip install --upgrade pip
+    - pip install -r backend/requirements.txt
+
+test-job:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - cd backend
+    - python3 -m pytest tests/
